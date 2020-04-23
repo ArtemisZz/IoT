@@ -1,0 +1,60 @@
+/* Main */
+main{
+  padding: 8rem 0;
+  display: grid;
+  justify-content: center;
+  .intro{
+    background: white;
+    width: 90%;
+    height: 20rem;
+    margin: auto;
+    border-radius: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+    *{
+      color: #0b2e13;
+    }
+    ul{
+      li{
+        margin: 4rem auto;
+        font-weight: 600;
+        display: flex;
+        *{
+          margin: auto 0.3rem;
+        }
+      }
+    }
+  }
+  .webname{
+    padding-top: 3rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    div{
+      width: 50%;
+    }
+  }
+}
+/* Main */
+
+@media only screen and (min-width: 768px) {
+  main {
+    position: relative;
+
+    .intro {
+      position: absolute;
+      top: 10rem;
+      right: 10rem;
+      width: 30rem;
+      margin: auto;
+    }
+    .webname {
+      position: absolute;
+      top: 10rem;
+      left: 5rem;
+      width: 10rem;
+      margin: auto;
+      text-align: start;
+    }
+  }
+}
